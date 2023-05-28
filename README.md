@@ -159,6 +159,7 @@ export class AccountsService {
 ```
 ## Routes
 >**Les routes permettent de définir les chemins et les actions correspondantes dans une application web.**
+
 ```java
 const routes: Routes = [
   {path: '', redirectTo: 'home', pathMatch: 'full'},
