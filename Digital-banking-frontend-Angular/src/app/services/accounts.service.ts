@@ -26,8 +26,8 @@ export class AccountsService {
     return this.http.post<AccountDetails>(environment.backendHost+"/accounts/credit", data);
   }
 
-  public transfer(accountSource: string, accountTarget: string, amount: number, description: string) {
-    let data = {accountSource, accountTarget, amount}
+  public transfer(accountDestination:string,accountSource:string, amount: number, description: string) {
+    let data = {accountDestination,accountSource,amount,description:description}
     return this.http.post(environment.backendHost+"/accounts/transfer", data);
   }
 

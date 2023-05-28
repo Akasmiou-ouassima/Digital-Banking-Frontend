@@ -11,6 +11,7 @@
             <th>Date</th>
             <th>Status</th>
             <th>Type</th>
+            <th>Operations</th>
           </tr>
           </thead>
           <tbody>
@@ -24,6 +25,11 @@
                 [ngClass]="account.type.includes('CurrentAccount') ? 'bg-success' : 'bg-danger'">
            {{ account.type }}
           </span>
+            </td>
+            <td>
+              <button (click)="Operations(account)" class="btn btn-info btn-sm">
+                All Operations
+              </button>
             </td>
           </tr>
           </tbody>

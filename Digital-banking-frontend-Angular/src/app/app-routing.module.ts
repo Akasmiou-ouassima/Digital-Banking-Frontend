@@ -14,6 +14,7 @@ import {AuthGuard} from "./guards/auth.guard";
 import {MainGuard} from "./guards/main-guard.service";
 import {EditProfilComponent} from "./edit-profil/edit-profil.component"
 import {AboutComponent} from "./about/about.component";
+import {AccountOperationsComponent} from "./account-operations/account-operations.component";
 /*const routes: Routes = [
   { path: "customers", component: CustomersComponent },
   { path: "accounts", component: AccountsComponent },
@@ -78,6 +79,10 @@ const routes: Routes = [
   },
   {
     path: "about", component: AboutComponent,
+  },
+  {
+    path: "account-operations/:id", component: AccountOperationsComponent,canActivate: [MainGuard],
+    canLoad: [MainGuard]
   },
 
 ];

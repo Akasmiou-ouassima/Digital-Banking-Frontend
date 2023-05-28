@@ -3,6 +3,7 @@ import {FormBuilder, FormGroup} from "@angular/forms";
 import {AccountsService} from "../services/accounts.service";
 import {catchError, Observable, throwError} from "rxjs";
 import {AccountDetails} from "../model/account.model";
+import Swal from "sweetalert2";
 
 @Component({
   selector: 'app-accounts',
@@ -26,7 +27,6 @@ export class AccountsComponent implements OnInit {
       accountId : this.fb.control('') // ['']
     });
     this.operationFormGroup = this.fb.group({
-      //accountId : this.fb.control(this.accountFormGroup.value),
       operationType : this.fb.control(null),
       amount : this.fb.control(0),
       description : this.fb.control(null),
@@ -61,7 +61,13 @@ export class AccountsComponent implements OnInit {
     if(operationType == 'DEBIT') {
       this.accountService.debit(accountId, amount, description).subscribe({
         next: (data) => {
-          alert("Success Debit");
+          Swal.fire({
+            position: 'center',
+            icon: 'success',
+            title: "The debit operation has been successfully executed !",
+            showConfirmButton: false,
+            timer: 2500
+          });
           this.operationFormGroup.reset();
           this.handleSearchAccountOperations();
         },
@@ -72,7 +78,13 @@ export class AccountsComponent implements OnInit {
     } else if( operationType == 'CREDIT') {
       this.accountService.credit(accountId, amount, description).subscribe({
         next: data => {
-          alert("Success Credit");
+          Swal.fire({
+            position: 'center',
+            icon: 'success',
+            title: "The credit operation has been successfully executed !",
+            showConfirmButton: false,
+            timer: 2500
+          });
           this.operationFormGroup.reset();
           this.handleSearchAccountOperations();
         },
@@ -81,10 +93,16 @@ export class AccountsComponent implements OnInit {
         }
       });
     } else if( operationType == 'TRANSFER') {
-      this.accountService.transfer(accountId, accountTarget, amount, description).subscribe({
+      this.accountService.transfer(accountTarget, accountId, amount, description).subscribe({
 
         next: data => {
-          alert("Transfer Success");
+          Swal.fire({
+            position: 'center',
+            icon: 'success',
+            title: "The transfer operation has been successfully executed !",
+            showConfirmButton: false,
+            timer: 2500
+          });
           this.operationFormGroup.reset();
           this.handleSearchAccountOperations();
         },

@@ -19,6 +19,7 @@ import { HomeComponent } from './home/home.component';
 import { LoginPageComponent } from './login-page/login-page.component';
 import { EditProfilComponent } from './edit-profil/edit-profil.component';
 import { AboutComponent } from './about/about.component';
+import { AccountOperationsComponent } from './account-operations/account-operations.component';
 
 
 
@@ -39,6 +40,7 @@ import { AboutComponent } from './about/about.component';
     LoginPageComponent,
     EditProfilComponent,
     AboutComponent,
+    AccountOperationsComponent,
   ],
   imports: [
     BrowserModule,

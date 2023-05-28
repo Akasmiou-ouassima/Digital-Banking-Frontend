@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col col-md-6">
       <div class="card">
-        <div class="card-header" style="background-color: lightgrey">Accounts</div>
+        <div class="card-header" style="background-color: lightgrey">Account</div>
         <div class="card-body">
           <form [formGroup]="accountFormGroup" (ngSubmit)="handleSearchAccountOperations()" class="mb-2">
             <div class="input-group">
@@ -117,7 +117,7 @@
               class="mb-3"
               *ngIf="operationFormGroup.value.operationType == 'TRANSFER'"
             >
-              <p>Destination ID</p>
+              <p>Account destination</p>
               <div class="input-group">
                 <input
                   type="text"
