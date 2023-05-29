@@ -35,7 +35,7 @@ export class EditProfilComponent implements OnInit {
           Swal.fire({
             position: 'center',
             icon: 'success',
-            title: "The customer has been successfully updated !",
+            title: "Your Informations has been successfully updated !",
             showConfirmButton: false,
             timer: 1500
           });
