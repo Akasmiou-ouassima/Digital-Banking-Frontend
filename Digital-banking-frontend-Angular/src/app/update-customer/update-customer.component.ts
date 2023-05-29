@@ -3,6 +3,7 @@ import {Customer} from "../model/customer.model";
 import {CustomerService} from "../services/customer.service";
 import {FormBuilder, FormGroup, Validators} from "@angular/forms";
 import {ActivatedRoute, Router} from "@angular/router";
+import Swal from "sweetalert2";
 
 @Component({
   selector: 'app-update-customer',
@@ -40,7 +41,13 @@ export class UpdateCustomerComponent implements OnInit {
 
     this.customerService.updateCustomer(customer).subscribe({
       next: (res) => {
-        alert('Customer has been successfully updated!');
+        Swal.fire({
+          position: 'center',
+          icon: 'success',
+          title: "Customer has been successfully updated !",
+          showConfirmButton: false,
+          timer: 1500
+        });
         this.updateFormGroup?.reset();
         this.router.navigateByUrl("/customers").then(r => {
         });

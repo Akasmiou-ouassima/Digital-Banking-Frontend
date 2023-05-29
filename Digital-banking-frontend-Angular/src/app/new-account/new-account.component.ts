@@ -59,8 +59,8 @@ export class NewAccountComponent implements OnInit {
             timer: 1500
           });
           this.newAccountFormGroup.reset();
-          //this.router.navigateByUrl("customers/" + this.customer, {state: this.customer}).then(r=>{});
-          this.router.navigateByUrl("customers");
+          this.router.navigateByUrl("customers/" + this.customerId, {state: this.customer}).then(r=>{});
+       //   this.router.navigateByUrl("customers");
         },
         error: err => {
           this.errorMessage = err.message;

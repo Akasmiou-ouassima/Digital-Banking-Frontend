@@ -44,8 +44,15 @@
               <tr *ngFor="let op of accountDetails.accountOperationDTOList">
                 <td>{{op.id}}</td>
                 <td>{{op.operationDate | date : 'dd-mm-yyyy'}}</td>
-                <td>{{op.operationType}}</td>
-                <td class="text-end">{{op.amount | number : '1.2-2'}}</td>
+                <td><span
+                  class="badge rounded-pill"
+                  [ngClass]="
+                            op.operationType.includes('DEBIT')
+                              ? 'bg-danger'
+                              : 'bg-success'
+                          "
+                >{{ op.operationType }}</span></td>
+                <td class="text-start">{{op.amount | number : '1.2-2'}}</td>
               </tr>
               </tbody>
             </table>
