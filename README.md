@@ -229,7 +229,7 @@ export class AppRoutingModule {
 ```
 ## Les interfaces
 
-> Ces interfaces sont accessibles par un compte administrateur
+> 
 
 ### _Page Home_
 
@@ -243,14 +243,15 @@ export class AppRoutingModule {
  
  ### _Page Login_
  
- <div align="center">
-<img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/login.jpg"  />
+  <div align="center">
+<img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/login1.jpg"  />
  </div>
+
  
 _**Ici l'authentification est effectuée en utilisant un compte d'administrateur**_  
 
  <div align="center">
-<img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/login1.jpg"  />
+<img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/login.jpg"  />
  </div>
  
  _**En cas d'erreur dans les informations de connexion, une notification d'erreur sera généralement affichée pour informer l'utilisateur que les informations fournies sont incorrectes**_  
