@@ -321,7 +321,7 @@ _**Ici l'authentification est effectuée en utilisant un compte d'administrateur
  ### _Afficher les operations d'un Compte_
  
 <div align="center">
-<img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/operationsIndex.jpg">
+<img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/oprationsIndex.jpg">
 </div>
 
 <div align="center">
