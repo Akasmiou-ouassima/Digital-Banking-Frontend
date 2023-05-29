@@ -226,3 +226,7 @@ const routes: Routes = [
 export class AppRoutingModule {
 }
 ```
+## Les interfaces
+
+_**Page Home**_
+
