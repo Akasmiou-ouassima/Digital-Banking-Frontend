@@ -230,13 +230,13 @@ export class AppRoutingModule {
 ## Les interfaces
 
 > Ces interfaces sont accessibles par un compte administrateur
-> 
+
 ### _Page Home_
 
 <div align="center">
 <img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/pagehome.jpg" />
  </div>
- >
+
  <div align="center">
 <img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/redirectLogin.jpg" />
  </div>
@@ -282,11 +282,11 @@ _**Ici l'authentification est effectuée en utilisant un compte d'administrateur
 <div align="center">
 <img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/update-customer.jpg">
 </div>
->
+
 <div align="center">
 <img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/updateCustomerAlert.jpg">
 </div>
->
+
 <div align="center">
 <img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/updateCustomerAlert1.jpg">
 </div>
@@ -302,7 +302,7 @@ _**Ici l'authentification est effectuée en utilisant un compte d'administrateur
 <div align="center">
 <img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/deleteCustomer.jpg">
 </div>
->
+
 <div align="center">
 <img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/deleteCustomer1.jpg">
 </div>
@@ -312,7 +312,7 @@ _**Ici l'authentification est effectuée en utilisant un compte d'administrateur
 <div align="center">
 <img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/customers1.jpg">
 </div>
->
+
 <div align="center">
 <img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/AccountsCustomer.jpg">
 </div>
@@ -322,7 +322,7 @@ _**Ici l'authentification est effectuée en utilisant un compte d'administrateur
 <div align="center">
 <img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/operationsIndex.jpg">
 </div>
->
+
 <div align="center">
 <img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/accountOperations.jpg">
 </div>
@@ -332,7 +332,7 @@ _**Ici l'authentification est effectuée en utilisant un compte d'administrateur
  <div align="center">
 <img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/addAccount.jpg">
 </div>
->
+
  <div align="center">
 <img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/addAccountAlert.jpg">
 </div>
