@@ -227,6 +227,114 @@ export class AppRoutingModule {
 }
 ```
 ## Les interfaces
+> Ces interfaces sont accessibles par un compte administrateur
+> 
+### _Page Home_
+<div align="center">
+<img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/pagehome.jpg" />
+ </div>
+ <div align="center">
+<img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/redirectLogin.jpg" />
+ </div>
+ 
+ ### _Page Login_
+ 
+ <div align="center">
+<img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/login.jpg"  />
+ </div>
+_**Ici l'authentification est effectuée en utilisant un compte d'administrateur**_  
+ <div align="center">
+<img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/login1.jpg"  />
+ </div>
+ _**En cas d'erreur dans les informations de connexion, une notification d'erreur sera généralement affichée pour informer l'utilisateur que les informations fournies sont incorrectes**_  
+ <div align="center">
+<img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/erreurInfoLogin.jpg"  />
+ </div>
+ ### _Liste des clients_
+                                                                                                            
+<div align="center">
+<img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/customers.jpg" />
+ </div>
+  
+ ### _Chercher un Client_
+ <div align="center">
+<img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/search.jpg">
+ </div> 
+ 
+  ### _Chercher un Client_
+ <div align="center">
+<img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/search.jpg">
+ </div>                                                                                                           
 
-_**Page Home**_
+  ### _Modifier un Client_
+<div align="center">
+<img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/update-customer.jpg">
+</div>
+<div align="center">
+<img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/updateCustomerAlert.jpg">
+</div>
+<div align="center">
+<img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/updateCustomerAlert1.jpg">
+</div>
+   ### _Ajouter un Client_
+<div align="center">
+<img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/add-newCustomer.jpg">
+</div>
+   ### _Supprimer un Client_
+<div align="center">
+<img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/deleteCustomer.jpg">
+</div>
+<div align="center">
+<img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/deleteCustomer1.jpg">
+</div>
+  ### _Afficher les comptes d'un Client_
+<div align="center">
+<img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/customers1.jpg">
+</div>
+<div align="center">
+<img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/AccountsCustomer.jpg">
+</div>
+ ### _Afficher les operations d'un Compte_
+<div align="center">
+<img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/operationsIndex.jpg">
+</div>
+<div align="center">
+<img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/accountOperations.jpg">
+</div>
+ ### _Ajouter un Compte_
+ <div align="center">
+<img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/addAccount.jpg">
+</div>
+ <div align="center">
+<img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/addAccountAlert.jpg">
+</div>
+ ### _Afficher tous les Comptes_
+  <div align="center">
+<img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/allAccounts.jpg">
+</div>
+ ### _Chercher un Compte_
+   <div align="center">
+<img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/earchAccount.jpg">
+</div>
+_**Si le compte n'existe pas, une notification d'erreur sera généralement affichée**_  
+<div align="center">
+<img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/AccountNotFound.jpg">
+</div>
+_**Maintenant, nous accédons en utilisant un compte utilisateur**_
 
+ ### _les Comptes d'utilisateur_
+ <div align="center">
+<img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/userAccounts.jpg">
+</div>
+ ### _les operations du Compte d'utilisateur_
+ <div align="center">
+<img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/userAccountOperations.jpg">
+</div>
+ ### _Modifier les informations d'utilisateur_
+ _**Ici, l'utilisateur peut modifier ses informations**_  
+ <div align="center">
+<img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/EditProfileUser.jpg">
+</div>
+
+
+ 
