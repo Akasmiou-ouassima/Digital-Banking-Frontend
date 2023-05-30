@@ -25,10 +25,15 @@ ng serve
 ```
 ## Structure de projet
 
-<img src="structure.jpg" align="right" />
+<div align="center">
+<img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/structure.jpg"  />
+</div>
 
 ##  les composants Angular pour l'interface utilisateur
-<img src="composants.jpg" align="right" />
+
+<div align="center">
+<img src="https://github.com/Akasmiou-ouassima/Digital-Banking-Frontend/blob/main/les%20images/composants.jpg"  />
+</div>
 
 ## Models 
 
